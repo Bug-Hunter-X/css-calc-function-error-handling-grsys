@@ -1,0 +1,12 @@
+/* bugSolution.css */
+.parent {
+  width: 500px; /* Explicitly define parent width */
+  background-color: lightgray; 
+}
+
+.child {
+  width: calc(100% - 50px);
+  background-color: lightblue;
+  height: 50px; 
+}
+/* other styles that may affect calculation are removed or corrected */
